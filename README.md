@@ -58,7 +58,6 @@ Para executar o projeto, siga estas etapas:
 
 <ul style="list-style-type:none; display:flex; justify-content:space-between;">
   <li>
-
     <img src="./src/assets/resultado1.jpg" alt="Tela 1" width="200" />
   </li>
   <li>
