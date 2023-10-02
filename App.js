@@ -1,11 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import LoginScreen from './src/components/LoginScreen';
+import IntroSlider from './src/components/IntroSlider'; 
 
 export default function App() {
+  const [showHome, setShowHome] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      {showHome ? (
+        <Text>ENTROU NA HOME</Text>
+      ) : showLogin ? (
+        <LoginScreen />
+      ) : (
+        <IntroSlider onDone={() => setShowLogin(true)} />
+      )}
     </View>
   );
 }
@@ -14,7 +24,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
