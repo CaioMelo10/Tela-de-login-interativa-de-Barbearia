@@ -58,16 +58,17 @@ Para executar o projeto, siga estas etapas:
 
 <ul style="list-style-type:none; display:flex; justify-content:space-between;">
   <li>
-    <img src="./assets/resultado/resultado1.jpg" alt="Tela 1" width="200" />
+
+    <img src="./src/assets/resultado1.jpg" alt="Tela 1" width="200" />
   </li>
   <li>
-    <img src="./assets/resultado/resultado2.jpg" alt="Tela 2" width="200" />
+    <img src="./src/assets/resultado2.jpg" alt="Tela 2" width="200" />
   </li>
   <li>
-    <img src="./assets/resultado/resultado3.jpg" alt="Tela 3" width="200" />
+    <img src="./src/assets/resultado3.jpg" alt="Tela 3" width="200" />
   </li>
   <li>
-    <img src="./assets/resultado/resultado4.jpg" alt="Tela 3" width="200" />
+    <img src="./src/assets/resultado4.jpg" alt="Tela 3" width="200" />
   </li>
 </ul>
 
