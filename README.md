@@ -72,6 +72,8 @@ Para executar o projeto, siga estas etapas:
 </ul>
 
 
-## Licença
+## O Mestre por Trás da Magia
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para obter mais detalhes.
+Eu sou o criador apaixonado deste projeto. Se você quiser me conhecer melhor ou verificar meus outros trabalhos, confira meu perfil no GitHub e .Linkedin.
+
+https://www.linkedin.com/in/caio-melo-73595b24b/
